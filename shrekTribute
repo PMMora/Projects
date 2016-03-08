@@ -1,0 +1,34 @@
+<body>
+  <div class="container">
+    <div class="well">
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+          <h1 class="text-center">Shrek</h1>
+          <h2 class="text-center"><em>Ogre of the swamp!</em></h2>
+          <div class="thumbnail">
+            <image src="http://media3.s-nbcnews.com/j/newscms/2014_09/213711/140226-tdy-140226-shrek-530-1727_6c2b53b6adf17373c2a5def8e29817ac.nbcnews-ux-2880-1000.jpg">
+              <div class="caption text-center">Shrek is a pretty cool guy once you stop annoying him and let him chill in his swamp alone</div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-m-8 col-xs-offset-3 col-m-offset-2">
+          <h3>Here's some things about Shrek</h3>
+          <h4>Friends</h4>
+          <ul>
+            <li>Shrek originally didn't have any friends</li>
+            <li>You could argue that his first friend was Donkey</li>
+            <li>He later met Fiona after rescuing her from a tower guarded by a dragon</li>
+            <li>Throughout his travels though, he met <strong>TONS</strong> of new friends</li>
+          </ul>
+          <h4>Marriage</h4>
+          <ul>
+            <li>You may <em>or</em> may not be surprised to hear that Shrek ended up marrying Fiona. Turns out rescuing a girl from a tower guarded by a dragon does things for a relationship.
+          </ul>
+          <h4>Learn More</h4>
+          <ul>
+            <li> To learn more about Shrek you should purchase the documentary about his beginnings just click <a href="http://www.amazon.com/Shrek-Widescreen/dp/B0039N74CW/ref=sr_1_2?ie=UTF8&qid=1457195771&sr=8-2&keywords=shrek">here</a> to buy it.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
