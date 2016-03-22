@@ -15,7 +15,7 @@ function getWeather(lat, lon) {
   var weatherAPI = "api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&APPID=c467b70c9304dab322303a073968eb1b";
   $.getJSON(weatherAPI, function(result) {
     var items = JSON.parse(result);
-    city = result.name;
+    city = items.name;
     $("#location").text("The weather in " + city);
   })
 }
