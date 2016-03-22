@@ -12,7 +12,7 @@ if (navigator.geolocation) {
 }
 
 function getWeather(lat, lon) {
-  var weatherAPI = "api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&APPID=c467b70c9304dab322303a073968eb1b";
+  var weatherAPI = "api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&APPID=(myAPIKey)";
   $.getJSON(weatherAPI, function(result) {
     var items = JSON.parse(result);
     city = items.name;
